@@ -1,0 +1,75 @@
+body{
+    background-color: #f4f4f4;
+}
+
+#main-header{
+    background-color: #333;
+}
+
+h1{
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+section{
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.section-info{
+    background: #fffcfc;
+}
+
+#about li{
+    color: #555;
+}
+
+#about li:nth-child(3){
+    font-weight: bold;
+    font-size: large;
+}
+
+#contact input{
+    border: 1px solid #ddd; 
+}
+
+#contact input:focus{
+    border-color: #00aaff;
+    outline: none;
+}
+
+#contact input[type="submit"] {
+    background: #007bff;
+    color: white;
+}
+
+#contact input[type="submit"]:hover{
+    background: #005bbc;
+}
+
+footer{
+    background: #222;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+h2::before{
+    content: "- ";
+}
+
+a:visited{
+    color: #aeaeae;
+}
